@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeotagAdd2Image</string>
+    
+    <string name="menu_upper_left">gallery</string>
+    
+    <string name="menu_upper_center">撮影位置を表示</string>
+	<string name="menu_upper_right">modify geoLocation</string>
+	
+	<string name="menu_lower_right">exit</string>
+	
+	<string name="menu_lower_left">set geotag</string>
+	
+	<string name="menu_lower_center">remove geotag</string>
+	
+	<string name="map_key"></string>
+	
+	<string name="dummy">dummy</string>
+	
+	<string name="map_key_release"></string>
+</resources>
