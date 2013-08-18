@@ -58,8 +58,6 @@ public class Degrees2DMS {
 		f_lat.reduction();
 		lat_reduced_second_Numerator = f_lat.getNumerator();
 		lat_reduced_second_Denominator = f_lat.getDenominator();
-//		Log.d("Degrees2DMS","約数後: " + lat_reduced_second_Numerator + "/" + lat_reduced_second_Denominator);
-		
 		//longtitude
 		if(lng >0){
 			lng_ref = "E";
@@ -80,7 +78,6 @@ public class Degrees2DMS {
 		f_lng.reduction();
 		lng_reduced_second_Numerator = f_lng.getNumerator();
 		lng_reduced_second_Denominator = f_lng.getDenominator();
-//		Log.d("Degrees2DMS","約数後: " + lng_reduced_second_Numerator + "/" + lng_reduced_second_Denominator);
 	}
 	
 	public String getLatRef(){

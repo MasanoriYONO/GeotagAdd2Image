@@ -10,10 +10,6 @@ public class Fraction {
     //約数
     public long factor = 1;        
     
-//    public long reduced_numerator;
-//	//分母
-//    public long reduced_denominator;
-    
     Fraction(){
         this.numerator = 0;
         this.denominator = 1;
@@ -38,9 +34,6 @@ public class Fraction {
             	Log.d("Fraction","約数:" + factor);
             	Log.d("Fraction","約数後: " + numerator + "/" + denominator);
                 
-//            	reduced_numerator = numerator;
-//            	reduced_denominator = denominator;
-            	
             	Fraction f = new Fraction(numerator, denominator);
                 f.factor = factor;
                 return f;
@@ -61,11 +54,4 @@ public class Fraction {
 		return this.denominator;
 	}
 	
-//	public long getReducedNumerator(){
-//		return this.reduced_numerator;
-//	}
-//	
-//	public long getReducedDenominator(){
-//		return this.reduced_denominator;
-//	}
 }
